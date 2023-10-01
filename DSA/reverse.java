@@ -21,9 +21,19 @@ public class reverse {
         // OR
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
+        sc.close();
          int n = String.valueOf(x).length();
-         
+         int rev=0;
 
+
+         for(int i = 1; i<=n;i++)
+         {
+             int b = x%10;
+             x=x/10;
+             rev = (rev*10)+b;
+         }
+
+           System.out.println(rev);
 
         
     }
