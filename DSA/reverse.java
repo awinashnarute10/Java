@@ -22,11 +22,11 @@ public class reverse {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         sc.close();
-         int n = String.valueOf(x).length();
+        
          int rev=0;
 
 
-         for(int i = 1; i<=n;i++)
+         while(x>0)
          {
              int b = x%10;
              x=x/10;
