@@ -23,17 +23,17 @@ public class reverse {
         int x = sc.nextInt();
         sc.close();
         
-         int rev=0;
+         int reverse=0;
 
 
          while(x>0)
          {
              int b = x%10;
              x=x/10;
-             rev = (rev*10)+b;
+             reverse = (reverse*10)+b;
          }
 
-           System.out.println(rev);
+           System.out.println(reverse);
 
         
     }
