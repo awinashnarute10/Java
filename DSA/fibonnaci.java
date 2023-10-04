@@ -38,11 +38,11 @@ public class fibonnaci {
                 System.out.print(","+sum);
             }
             System.out.println("");
-            sc.close();
+           
          }
-
+ 
         }
-        
+         sc.close();
     }
         
     }
