@@ -33,7 +33,7 @@ public class listsum {
                 break;
             }
                  
-        
+        sc.close();
           
            
         }

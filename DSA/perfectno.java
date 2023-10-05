@@ -29,7 +29,7 @@ public class perfectno {
      else{
         System.out.println("Not a perfect no");
      }
-
+sc.close();
     }
     
 }
