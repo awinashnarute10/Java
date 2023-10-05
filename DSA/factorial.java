@@ -15,6 +15,7 @@ public class factorial {
                 fac = fac*i;
             }
             System.out.println("factorial = "+fac);
+            sc.close();
         }
     }
     

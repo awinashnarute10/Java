@@ -7,9 +7,17 @@ public class depreciation {
         
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter original price:- ");
-        int val = sc.nextInt();
+        float val = sc.nextInt();
         System.out.println("Enter depreciation rate:- ");
-        int per = sc.nextInt();
+        float per = sc.nextInt();
+
+        float dep = (per/100)*val;
+        System.out.println(dep);
+        float finals = val-dep;
+        
+        System.out.println("Value after depreciation:- "+finals);
+        sc.close();
+
         
     }
     
