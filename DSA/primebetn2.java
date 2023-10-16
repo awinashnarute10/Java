@@ -9,6 +9,7 @@ public class primebetn2 {
         int n1 = sc.nextInt();
 
         prime(n, n1);
+        sc.close();
         
     }
     static void prime(int n, int n1)
