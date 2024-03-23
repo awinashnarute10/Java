@@ -1,6 +1,6 @@
 package DSA.BeginningtoArrays;
 import java.util.ArrayList;
-import java.util.Collection;
+
 import java.util.Collections;
 import java.util.List;
 
@@ -16,7 +16,7 @@ double s =0;
          s+=k;
 
          List <Double> bs = new ArrayList<>();
-         int i = 0;
+     
          while(s!=0)
          {
             

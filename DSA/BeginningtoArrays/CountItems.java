@@ -11,7 +11,7 @@ public class CountItems {
         items.add( Arrays.asList("computer","silver","phone"));
         items.add( Arrays.asList("phone","gold","iphone"));
     
-        int flag=0,match=0;
+        // int flag=0,match=0;
         String ruleKey = "type";
         String ruleValue = "phone";
         // if(ruleKey=="color")
