@@ -1,4 +1,4 @@
-package DSA.Sorting;
+package DSA.Searching;
 
 public class isperfectsquare {
     public static void main(String[] args) {

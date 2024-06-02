@@ -1,4 +1,4 @@
-package DSA.Sorting;
+package DSA.Searching;
 
 public class smallestletterthantarget {
     public static void main(String[] args) {
