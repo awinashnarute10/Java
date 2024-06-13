@@ -10,10 +10,11 @@ public class cyclesort {
 int i = 0;
          while(i < arr.length) {
             int temp = 0;
-            if (arr[i]!=i+1) {
+            int correct = arr[i]-1;
+            if (arr[i]!=correct) {
                 temp = arr[i];
-                arr[i] = arr[arr[i]-1];
-                arr[temp-1] = temp;
+                arr[i] = arr[correct];
+                arr[correct] = temp;
                 
             }
             else i++;
