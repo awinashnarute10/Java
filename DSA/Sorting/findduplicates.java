@@ -1,8 +1,7 @@
 package DSA.Sorting;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+
 
 public class findduplicates {
     public static void main(String[] args) {
