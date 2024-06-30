@@ -9,10 +9,12 @@ public class string {
         String b = new String("Awinash");
         String c = "Awinash";
         String d = "Awinash";
-
+        
         System.out.println(a==b); //false as comapring two differnet objects(even tho same value) will give false
         System.out.println(c==d);// true as both are pointing to same object 
         System.out.println(a.equals(b));// true as this method only checks value and not objects
+        
+        
         
         float x = 23.23443f;
         System.out.printf("Formatted numeer is %.2f", x);// her the number is formatted and rounded off to 2 digits afer decimal using printf instead of println
