@@ -4,9 +4,9 @@ public class minandmaxinarr {
 
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, -60, -70, 100, 99 };
-        int i = 0;
-        int min = arr[0];
-        int max = arr[0];
+        // int i = 0;
+        // int min = arr[0];
+        // int max = arr[0];
         int n = arr.length;
         // System.out.println(min(arr, i, min));
         // System.out.println(max(arr, min, max));
