@@ -3,26 +3,25 @@ package DSA.recursion;
 public class binarysearch {
 
     public static void main(String[] args) {
-        int[] arr = { 1, 4, 6, 7, 8, 9 };
-        int target = 10;
-        System.out.println(binarysearching(arr, target, 0, arr.length - 1) + 1);
+        int[] num = {1,2,3,4,5,6,17};
+        int target = 17;
+        int s = 0;
+        int e = num.length-1;
 
+        System.out.println(binarysearching(num, s, e, target)+1);
     }
 
-    static int binarysearching(int[] arr, int target, int s, int e) {
+    static int binarysearching(int[] num, int s, int e, int target){
+        int midd = (s+e)/2;
 
-        if (s > e)
-            return -2;
+        if(num[midd]==target)
+        {
+            return midd;
+        }
 
-        int mid = s + (e - s) / 2;
-
-        if (arr[mid] == target)
-            return mid;
-
-        if (arr[mid] > target)
-            return binarysearching(arr, target, s, mid - 1);
-
-        return binarysearching(arr, target, mid + 1, e);
-
+        if(num[midd]>target){
+            return binarysearching(num, s, e-1, target);
+        }
+        return binarysearching(num, s+1, e, target);
     }
 }

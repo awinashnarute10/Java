@@ -17,7 +17,7 @@ public class minandmaxinarr {
 
     static int min(int[] arr, int n) {
 
-        // if (min > arr[i]) {
+        // if (min < arr[i]) {
         // min = arr[i];
         // }
         // if (i == arr.length - 1) {

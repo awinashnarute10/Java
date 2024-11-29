@@ -1,0 +1,197 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "consecutiveduplicateremover",
+      "request": "launch",
+      "mainClass": "DSA.recursion.consecutiveduplicateremover",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "balancedparanthasis",
+      "request": "launch",
+      "mainClass": "DSA.recursion.balancedparanthasis",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "reducetozeero",
+      "request": "launch",
+      "mainClass": "DSA.recursion.reducetozeero",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "sortedornot",
+      "request": "launch",
+      "mainClass": "DSA.recursion.sortedornot",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "factorial",
+      "request": "launch",
+      "mainClass": "DSA.recursion.factorial",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "powerofanynumber",
+      "request": "launch",
+      "mainClass": "DSA.recursion.powerofanynumber",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "poweroffour",
+      "request": "launch",
+      "mainClass": "DSA.recursion.poweroffour",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "powerofthree",
+      "request": "launch",
+      "mainClass": "DSA.recursion.powerofthree",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "poweroftwo",
+      "request": "launch",
+      "mainClass": "DSA.recursion.poweroftwo",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "sumofnaturalno",
+      "request": "launch",
+      "mainClass": "DSA.recursion.sumofnaturalno",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "isprime",
+      "request": "launch",
+      "mainClass": "DSA.recursion.isprime",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "product",
+      "request": "launch",
+      "mainClass": "DSA.recursion.product",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "sumofdigits",
+      "request": "launch",
+      "mainClass": "DSA.recursion.sumofdigits",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "binaryinsertionsort",
+      "request": "launch",
+      "mainClass": "DSA.Sorting.binaryinsertionsort",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "insertionsort",
+      "request": "launch",
+      "mainClass": "DSA.Sorting.insertionsort",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "insertionsort",
+      "request": "launch",
+      "mainClass": "DSA.recursion.insertionsort",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "bubblesort",
+      "request": "launch",
+      "mainClass": "DSA.recursion.bubblesort",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "geekonaaci",
+      "request": "launch",
+      "mainClass": "DSA.recursion.geekonaaci",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "stringlengthcalc",
+      "request": "launch",
+      "mainClass": "DSA.recursion.stringlengthcalc",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "speacialfibonacci",
+      "request": "launch",
+      "mainClass": "DSA.recursion.speacialfibonacci",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "palindrome",
+      "request": "launch",
+      "mainClass": "DSA.recursion.palindrome",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "onetoN",
+      "request": "launch",
+      "mainClass": "DSA.recursion.onetoN",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "fibonacci",
+      "request": "launch",
+      "mainClass": "DSA.recursion.fibonacci",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "recursion",
+      "request": "launch",
+      "mainClass": "DSA.recursion.recursion",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "reversestringg",
+      "request": "launch",
+      "mainClass": "DSA.recursion.reversestringg",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "binarysearch",
+      "request": "launch",
+      "mainClass": "DSA.recursion.binarysearch",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${file}"
+    }
+  ]
+}

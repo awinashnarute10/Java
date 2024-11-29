@@ -10,6 +10,7 @@ public class recursion {
         if (n > 5) {
             return;
         }
+
         System.out.println(n);
         print(n + 1);
 

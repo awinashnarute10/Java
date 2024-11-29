@@ -7,11 +7,11 @@ public class fibonacci {
               System.out.println(fibo(n));
        }
 
-       static int fibo(int n) {
-              if (n < 2) {
+        static int fibo(int n){
+              if(n<2)
+              {
                      return n;
               }
-
-              return fibo(n - 2) + fibo(n - 1);
+              return fibo(n-1)+fibo(n-2);
        }
 }
