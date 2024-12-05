@@ -6,6 +6,97 @@
   "configurations": [
     {
       "type": "java",
+      "name": "flipimage",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.flipimage",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "xorofallbetweenaandb",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.xorofallbetweenaandb",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "xortillb",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.xortillb",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "numberofsetbits",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.numberofsetbits",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "power",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.power",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "ifpowerof2",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.ifpowerof2",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "pascaltraingleformula",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.pascaltraingleformula",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "numberofdidgitsinbaseb",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.numberofdidgitsinbaseb",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "magicnumber",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.magicnumber",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "ithbitofnumber",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.ithbitofnumber",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "appearsonce",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.appearsonce",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "oddoreven",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.oddoreven",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "powersetinlexigraphicorder",
+      "request": "launch",
+      "mainClass": "DSA.recursion.powersetinlexigraphicorder",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
       "name": "consecutiveduplicateremover",
       "request": "launch",
       "mainClass": "DSA.recursion.consecutiveduplicateremover",

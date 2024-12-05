@@ -10,6 +10,7 @@ public class powerofanynumber {
         int n = sc.nextInt();
         System.out.println("Provide number");
         int a = sc.nextInt();
+        sc.close();
         System.out.println(isPower(n, a));
 
     }
