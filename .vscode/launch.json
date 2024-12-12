@@ -6,6 +6,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "sortingbybits",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.sortingbybits",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "stepstoreduce",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.stepstoreduce",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "xor",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.xor",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "alteringbit",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.alteringbit",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "setmismatch",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.setmismatch",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "complement",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.complement",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "countingbits",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.countingbits",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "Hammingdistance",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.Hammingdistance",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "reversebit",
+      "request": "launch",
+      "mainClass": "DSA.Bitwise.reversebit",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
       "name": "flipimage",
       "request": "launch",
       "mainClass": "DSA.Bitwise.flipimage",
