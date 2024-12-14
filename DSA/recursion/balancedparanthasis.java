@@ -5,6 +5,7 @@ public class balancedparanthasis {
     public static void main(String[] args) {
         String s  = "[{}]";
         
+        @SuppressWarnings("unused")
         String stack = "";
        System.out.println(isBalanced(s.toCharArray(), 0, ""));
           
