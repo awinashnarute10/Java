@@ -9,36 +9,59 @@ public class consistentString {
         System.out.println(countConsistentStrings(allowed, words));
     }
 
-    public static int countConsistentStrings(String allowed, String[] words) {
-        boolean[] consistent = new boolean[123];
+    // public static int countConsistentStrings(String allowed, String[] words) {
+    //     boolean[] consistent = new boolean[123];
 
-        for(int i = 0; i<allowed.length(); i++)
-        {
-            consistent[allowed.charAt(i)]= true;
-        }
+    //     for(int i = 0; i<allowed.length(); i++)
+    //     {
+    //         consistent[allowed.charAt(i)]= true;
+    //     }
+    //     int count = 0;
+
+    //     for(int i = 0; i<words.length; i++)
+    //     {
+    //         if(isConsistent(words[i],consistent))
+    //         {
+    //           count++;
+    //         }
+    //     }
+
+    //     return count;
+        
+    // }
+
+    // public static boolean isConsistent(String s, boolean[] consistent)
+    // {
+    //        for(int i = 0; i<s.length(); i++)
+    //        {
+    //         if(!consistent[s.charAt(i)]){
+    //             return false;
+    //         }
+    //        }
+    //        return true;
+    // }
+
+    public static int countConsistentStrings(String allowed, String[] words) {
+        int allowmask = 0;
+        int wordmask = 0;
         int count = 0;
 
-        for(int i = 0; i<words.length; i++)
-        {
-            if(isConsistent(words[i],consistent))
-            {
-              count++;
-            }
+        for(char c: allowed.toCharArray()){
+            allowmask|=(1<<(c-'a'));
         }
 
-        return count;
-        
-    }
-
-    public static boolean isConsistent(String s, boolean[] consistent)
-    {
-           for(int i = 0; i<s.length(); i++)
-           {
-            if(!consistent[s.charAt(i)]){
-                return false;
+        for(String s: words){
+            for(char c: s.toCharArray())
+            {
+                wordmask|=(1<<(c-'a'));
             }
-           }
-           return true;
+            if((wordmask&~allowmask)==0)
+            {
+                count++;
+            }
+        }
+        return count;
     }
-    
 }
+    
+
