@@ -6,6 +6,118 @@
   "configurations": [
     {
       "type": "java",
+      "name": "addbinary",
+      "request": "launch",
+      "mainClass": "DSA.Math.addbinary",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "selfdividing",
+      "request": "launch",
+      "mainClass": "DSA.Math.selfdividing",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "stairsways",
+      "request": "launch",
+      "mainClass": "DSA.Math.stairsways",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "powerof4",
+      "request": "launch",
+      "mainClass": "DSA.Math.powerof4",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "factorial",
+      "request": "launch",
+      "mainClass": "DSA.Math.factorial",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "maximumproduct",
+      "request": "launch",
+      "mainClass": "DSA.Math.maximumproduct",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "excelcolumnnumber",
+      "request": "launch",
+      "mainClass": "DSA.Math.excelcolumnnumber",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "armstrong",
+      "request": "launch",
+      "mainClass": "DSA.Math.armstrong",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "happynumber",
+      "request": "launch",
+      "mainClass": "DSA.Math.happynumber",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "romantointeger",
+      "request": "launch",
+      "mainClass": "DSA.Math.romantointeger",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "gcd_lcm",
+      "request": "launch",
+      "mainClass": "DSA.Math.gcd_lcm",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "factors",
+      "request": "launch",
+      "mainClass": "DSA.Math.factors",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "newtonraphsonsqrt",
+      "request": "launch",
+      "mainClass": "DSA.Math.newtonraphsonsqrt",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "sqrt",
+      "request": "launch",
+      "mainClass": "DSA.Math.sqrt",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "primerange",
+      "request": "launch",
+      "mainClass": "DSA.Math.primerange",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "prime",
+      "request": "launch",
+      "mainClass": "DSA.Math.prime",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
       "name": "decodexor",
       "request": "launch",
       "mainClass": "DSA.Bitwise.decodexor",
