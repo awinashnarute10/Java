@@ -6,6 +6,132 @@
   "configurations": [
     {
       "type": "java",
+      "name": "sudokusolver",
+      "request": "launch",
+      "mainClass": "DSA.recursion.sudokusolver",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "nknights",
+      "request": "launch",
+      "mainClass": "DSA.recursion.nknights",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "nqueens",
+      "request": "launch",
+      "mainClass": "DSA.recursion.nqueens",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "mazewithallpath",
+      "request": "launch",
+      "mainClass": "DSA.recursion.mazewithallpath",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "maze",
+      "request": "launch",
+      "mainClass": "DSA.recursion.maze",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "dicerollsum",
+      "request": "launch",
+      "mainClass": "DSA.recursion.dicerollsum",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "phonepad",
+      "request": "launch",
+      "mainClass": "DSA.recursion.phonepad",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "permutation",
+      "request": "launch",
+      "mainClass": "DSA.recursion.permutation",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "subset",
+      "request": "launch",
+      "mainClass": "DSA.recursion.subset",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "subsubseq",
+      "request": "launch",
+      "mainClass": "DSA.recursion.subsubseq",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "removealla",
+      "request": "launch",
+      "mainClass": "DSA.recursion.removealla",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "quicksort",
+      "request": "launch",
+      "mainClass": "DSA.recursion.quicksort",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "mergesort",
+      "request": "launch",
+      "mainClass": "DSA.recursion.mergesort",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "selectionsort",
+      "request": "launch",
+      "mainClass": "DSA.recursion.selectionsort",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "pattern1",
+      "request": "launch",
+      "mainClass": "DSA.recursion.pattern1",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "rotatedbinarysearch",
+      "request": "launch",
+      "mainClass": "DSA.recursion.rotatedbinarysearch",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "countzeroes",
+      "request": "launch",
+      "mainClass": "DSA.recursion.countzeroes",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "reversenumber",
+      "request": "launch",
+      "mainClass": "DSA.recursion.reversenumber",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
       "name": "addbinary",
       "request": "launch",
       "mainClass": "DSA.Math.addbinary",
