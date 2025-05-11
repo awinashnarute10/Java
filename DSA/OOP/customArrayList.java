@@ -15,7 +15,8 @@ public class customArrayList<T extends Number> { // here T should be Number or s
 
     public void getList(List<? extends Number> list){
         // java wildcard 
-        // here now list can have subclasses of Number eg float number 
+        // here now list can have subclasses of Number eg float number   
+        
     }
 
     public void add(T num){

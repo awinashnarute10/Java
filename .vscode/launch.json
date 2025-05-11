@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "comparing",
+      "request": "launch",
+      "mainClass": "DSA.OOP.comparing",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "customArrayList",
+      "request": "launch",
+      "mainClass": "DSA.OOP.customArrayList",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "DSA.OOP.Interface_Practice.Main",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "practice2",
+      "request": "launch",
+      "mainClass": "DSA.OOP.practice2",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "inheritance",
+      "request": "launch",
+      "mainClass": "DSA.OOP.inheritance",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "practice",
+      "request": "launch",
+      "mainClass": "DSA.OOP.practice",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
+      "name": "tictactoe",
+      "request": "launch",
+      "mainClass": "DSA.recursion.tictactoe",
+      "projectName": "Java_8f84c501"
+    },
+    {
+      "type": "java",
       "name": "sudokusolver",
       "request": "launch",
       "mainClass": "DSA.recursion.sudokusolver",
